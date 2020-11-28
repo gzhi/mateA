@@ -5,6 +5,18 @@
          (3)git add . 将文件添加至git 暂存工作区中； 
         （4）git commit -m content 将文件提交本地仓库
     2推送服务
-        （1）git push 远程地址 分支名称
-             git push https://github.com/gzhi/mateA.git master
+        （1）推送方法
+            git push 远程地址 分支名称
+            git push https://github.com/gzhi/mateA.git master
+                 起别名{
+                     1
+                     git remote add (提交的地址叫做origin) 
+                     git remote add origin https://github.com/gzhi/mateA.git
+                     2之后提交
+                     git push origin master
+                 }
         （2）跳转至登陆界面 验证身份
+               1 跳转githup登陆界面后，输入用户名和密码之后，自动验证身份。
+               2 下次提交将不用验证（这是win10 提供的服务）{
+                   修改：开始-控制面板-凭据管理器（web凭据，window凭据），删除window凭据中的githup账号。
+               }
