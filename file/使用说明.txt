@@ -1,0 +1,10 @@
+如何将本地仓库推送至远程仓库？
+    1 保存好本地仓库
+        （1）git init 初始化git环境
+        （2） git stauts 查看状态
+         (3)git add . 将文件添加至git 暂存工作区中； 
+        （4）git commit -m content 将文件提交本地仓库
+    2推送服务
+        （1）git push 远程地址 分支名称
+             git push https://github.com/gzhi/mateA.git master
+        （2）跳转至登陆界面 验证身份
